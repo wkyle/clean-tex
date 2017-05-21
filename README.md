@@ -1,4 +1,4 @@
-# cleantex
+# clean-tex
 Tool for cleaning directories of LaTeX log files
 
 
