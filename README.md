@@ -1,5 +1,5 @@
 # clean-tex
-Tool for cleaning directories of LaTeX log files
+Command line tool for cleaning directories of LaTeX log files
 
 
 ## Motivation
