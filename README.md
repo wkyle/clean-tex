@@ -7,7 +7,7 @@ When you compile a LaTeX document the compiler generates a collection of log fil
 
 If you use an editor like TEX Maker you have the option to send all output files to a separate "build" directory but then your pdf gets sent there too and I haven't found that option to be much cleaner or more convenient.
 
-Additionally, any code you've been working on will inevitably leave behind ghost files (files ending in a tilde "~") and these wind up cluttering up my directories.
+Additionally, any code you've been working on will inevitably leave behind backup files (files ending in a tilde "~") and these wind up cluttering up my directories. "Why are you still using Emacs??" Hitting tab is easier than hitting backspace.
 
 What I want is a command line utility to clean up my working directory or any arbitrarily specified directory with the option to clean sub-directories, i.e., "from here down".
 
