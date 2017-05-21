@@ -16,12 +16,12 @@ What I want is a command line utility to clean up my working directory or any sp
 Convert this script to an executable and stick it in your /usr/local/bin/ or other directory in your PATH.
 
 ## Testing
-..*Copy test folder to your computer
-..*On command line type `clean-tex -lrp /path/to/test/file/` to see a list of all files recursively
-..*Type `clean-tex -lp /path/to/test/file/` to see a list of files only in the top level directory only
-..*Type `clean-tex -rp /path/to/test/file/` to remove files recursively
-..*Type `clean-tex -p /path/to/test/file/` to remove files in the top level directory only
-..*Type `clean-tex -h` to see all argument options
+..* Copy test folder to your computer
+..* On command line type `clean-tex -lrp /path/to/test/file/` to see a list of all files recursively
+..* Type `clean-tex -lp /path/to/test/file/` to see a list of files only in the top level directory only
+..* Type `clean-tex -rp /path/to/test/file/` to remove files recursively
+..* Type `clean-tex -p /path/to/test/file/` to remove files in the top level directory only
+..* Type `clean-tex -h` to see all argument options
 
 
 ###### Warning
