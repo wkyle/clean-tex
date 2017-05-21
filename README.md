@@ -14,3 +14,7 @@ What I want is a command line utility to clean up my working directory or any ar
 
 # Usage
 Convert this script to an executable and stick it in your /usr/local/bin/ or other directory in your shell PATH.
+
+
+# Warning
+I made this for Linux users. If you use Windows or MacOS, God help you.
