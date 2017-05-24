@@ -17,10 +17,8 @@ Convert this script to an executable and stick it in your /usr/local/bin/ or oth
 
 ## Testing
 * Copy test folder to your computer
-* On command line type `clean-tex -lrp /path/to/test/file/` to see a list of all files recursively
-* Type `clean-tex -lp /path/to/test/file/` to see a list of files only in the top level directory only
-* Type `clean-tex -rp /path/to/test/file/` to remove files recursively
-* Type `clean-tex -p /path/to/test/file/` to remove files in the top level directory only
+* On command line type `clean-tex -r /path/to/test/file/` to see a list of all files recursively and optionally delete
+* Type `clean-tex /path/to/test/file/` to see a list of files only in top-level directory and optionally delete
 * Type `clean-tex -h` to see all argument options
 
 
