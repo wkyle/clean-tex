@@ -24,11 +24,11 @@ def clean_top_down(do_list, root_dir):
     for root, dirs, files in os.walk(root_dir): #get all files recursively from root down
         for file in files:
             for suffix in rm_ls:
-                if file.endswith(suffix) and not file.startswith('.'): #skip hidden
+                if file.endswith(suffix) and not file.startswith('.') and not '/.' in root: #skip hidden
                     if do_list:
-                        print(os.path.join(root_dir, file)) #list
+                        print(os.path.join(root, file)) #list
                     else:
-                        os.remove(os.path.join(root_dir, file)) #delete and count
+                        os.remove(os.path.join(root, file)) #delete and count
                     count += 1
     return count
 
